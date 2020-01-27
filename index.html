@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<!-- GET GLYPHICONS WORKING-->
+
+<head>
+	<meta charset="UTF-8">
+	<title>Web Visualization Dashboard</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="WebVisualizations/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    	<a class="navbar-brand" href="#">The Happiness Hunters</a>
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+    	</button>
+
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    	<ul class="navbar-nav ml-auto">
+	        	<li class="nav-item dropdown">
+	        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	            	Plots
+	        		</a>
+	        		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	            		<a class="dropdown-item" href="WebVisualizations/MegaPlot.html">The Mega Plot</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Correlation.html">Correlation Plot</a>
+	            		<a class="dropdown-item" href="WebVisualizations/BottomScores.html">Bottom Happiness Scores 2018</a>
+	            		<a class="dropdown-item" href="WebVisualizations/TopScores.html">Top Happiness Scores 2018</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Elec_Sales_per_Cap_2017.html">Electronic Sales per Capita 2017</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Elec_Sales_per_Cap_2018.html">Electronic Sales per Capita 2018</a>
+	            		<div class="dropdown-divider"></div>
+	            		<a class="dropdown-item" href="WebVisualizations/Angola.html">Angola Scores Change</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Australia.html">Australia Scores Change</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Benin.html">Benin Scores Change</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Cambodia.html">Cambodia Scores Change</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Congo.html">Congo Rep. Scores Change</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Norway.html">Norway Scores Change</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Syria.html">Syria Scores Change</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Venezuela.html">Venezuela Scores Change</a>
+	            		<a class="dropdown-item" href="WebVisualizations/Yemen.html">Yemen Scores Change</a>
+	        		</div>
+	        	</li>
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="WebVisualizations/comparison.html">Comparison<span class="glyphicon glyphicon-envelope"></span></a>
+	        	</li>
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="WebVisualizations/data.html">Data</a>
+	        	</li>
+	    	</ul>
+	    	<!--
+	    	<form class="form-inline my-2 my-lg-0">
+	        	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	        	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    	</form>
+	    	-->
+	    </div>
+  	</nav>
+
+
+  	<div class="container">
+    	<div class="row">
+    		<div class="col-md-8">
+				<br>
+    			<h1 class="display-4">The Happiness Hunters</h1>
+				<hr class="my-4">
+				<p>What is happiness? It feels like the primary goal for a human, yet many struggle to find it in our everyday lives. While many people attempt to work hard for it, countless are sucked into the endless grind for more money, eventually leaving them working solely for the money and forgetting what they were originally searching for. As the old adage goes, money can’t buy happiness. But does this classic saying really hold true? We at [Super Professional Company] have put together a crack team of data analytics experts to find out once and for all.</p>
+			</div>
+			<div class="col-md-4">
+				<br>
+				<h1 class="display-4">Visualizations</h1>
+				<hr class="my-4">
+				<div class="row">
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/MegaPlot.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/MegaPlot.html">The Mega Plot</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/MegaPlot.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Correlation.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Correlation.html">Correlation Plot</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Correlations.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/BottomScores.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/BottomScores.html">Bottom Happiness Scores 2018</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Bottom Scores.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/TopScores.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/TopScores.html">Top Happiness Scores 2018</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Top Scores.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Elec_Sales_per_Cap_2017.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Elec_Sales_per_Cap_2017.html">Electronic Sales per Capita 2017</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Elec_Sales_per_Cap_2017.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Elec_Sales_per_Cap_2018.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Elec_Sales_per_Cap_2018.html">Electronic Sales per Capita 2018</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Elec_Sales_per_Cap_2018.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Angola.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Angola.html">Angola Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Angola.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Australia.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Australia.html">Australia Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Australia.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Benin.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Benin.html">Benin Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Benin.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='PWebVisualizationsages/Cambodia.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Cambodia.html">Cambodia Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Cambodia.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Congo.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Congo.html">Congo Rep. Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Congo.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='PageWebVisualizationss/Norway.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Norway.html">Norway Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Norway.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Syria.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Syria.html">Syria Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Syria.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Venezuela.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Venezuela.html">Venezuela Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Venezuela.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+					<div class="col-xs-3 col-md-6" onclick="location.href='WebVisualizations/Yemen.html';">
+						<div class="caption">
+		  					<a href="WebVisualizations/Yemen.html">Yemen Scores Change</a>
+		  				</div>
+				  		<div class="thumbnail">
+				  			<img src="WebVisualizations/Visualizations/Yemen.png" alt="..." class="img-thumbnail">
+				  		</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  	</div>
+</body>
