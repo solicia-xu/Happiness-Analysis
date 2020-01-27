@@ -1,10 +1,4 @@
-# The Happiness Hunters
-* David Nassif
-	+ DataFrame Framer
-* Vaishall Pradeepkumar
-	+ The Calculator
-* Solicia Xu
-	+ Plot Builder
+# Happiness Analysis
 
 What is happiness? It feels like the primary goal for a human, yet many struggle to find it in our everyday lives. While many people attempt to work hard for it, countless are sucked into the endless grind for more money, eventually leaving them working solely for the money and forgetting what they were originally searching for. As the old adage goes, money can’t buy happiness. But does this classic saying really hold true? We at [Super Professional Company] have put together a crack team of data analytics experts to find out once and for all.
 
