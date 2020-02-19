@@ -19,3 +19,17 @@ Rough Breakdown of Tasks:
 3.	Do statistical analysis on the data
 4.	Visualize in charts
 5.	Answer the questions we posed
+
+## Visualization Result
+
+![Step1](WebVisualizations/Visualizations/Correlations.png)
+
+![Step1](WebVisualizations/Visualizations/MegaPlot.png)
+
+![Step1](WebVisualizations/Visualizations/Top Scores.png)
+
+![Step1](WebVisualizations/Visualizations/Elec_Sales_per_Cap_2017.png)
+
+![Step1](WebVisualizations/Visualizations/Elec_Sales_per_Cap_2018.png)
+
+
